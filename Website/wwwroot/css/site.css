@@ -1,0 +1,123 @@
+﻿a.navbar-brand {
+  text-align: center;
+  overflow-x: visible;
+  color: white!important;
+}
+
+a {
+  color: #0366d6;
+}
+
+.navbar {
+    background-color: dodgerblue;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+html {
+  font-size: 14px;
+}
+
+nav {
+    margin-bottom: 48px;
+    height: 250px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+    nav {
+        height: 60px;
+    }
+}
+
+@media (max-width: 580px) {
+    nav {
+        height: 60px;
+    }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.margin-bottom-extra {
+    margin-bottom: 120px;
+}
+
+.banner-image {
+    background-image: var(--banner-image);
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.nav-row {
+    flex-direction: row-reverse !important;
+    display: inline-flex !important;
+}
+
+.nav.nav-row ul {
+    flex-direction: row;
+}
+
+.navbar-toggler {
+    background-color:white;
+}
+
+.navbar-collapse {
+    background-color: grey;
+    opacity: .95;
+}
+
+@media (min-width: 576px) {
+    .navbar-collapse {
+        background-color: unset;
+        opacity: unset;
+    }
+}
+
+.page-image {
+    flex: 1 1 auto;
+    background-image: var(--dog-image);
+    background-size: 100%;
+}

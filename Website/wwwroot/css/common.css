@@ -1,0 +1,70 @@
+nav a {
+    color: whitesmoke;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+nav a:hover {
+    color: skyblue;
+}
+
+.banner {
+    width: 100%;
+}
+
+
+ul > li {
+    width: max-content;
+}
+
+div {
+    margin: 12px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #2170de
+}
+
+ul {
+    list-style:none;
+}
+
+ul h3 {
+    margin-bottom: 24px;    
+}
+
+
+
+.footer {
+    position: absolute;
+    background-color: #ebebeb;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+.footer div {
+    display:flex;
+    flex-direction: row;
+}
+
+.footer div p {
+    flex: 1 1;
+}
+
+div ~ div {
+    margin-top: 48px;
+}
